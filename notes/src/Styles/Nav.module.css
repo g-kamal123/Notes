@@ -1,0 +1,130 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 4%;
+    gap: 2vw;
+    align-items: center;
+    background-color: #007ACC;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* flex: 0 1 auto; */
+}
+.nav h2{
+    margin: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1vw;
+    flex: 1 0 0;
+    min-height: 3vh;
+}
+.nav ul li{
+    min-height: 100%;
+}
+.nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: whitesmoke;
+    /* background-color: red; */
+    padding: 0.5em 1em;
+    min-height: 100%;
+    width: max-content;
+}
+.active{
+    background-color: rgb(6, 42, 83);
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+.nav i{
+    background-color:#1b3c52;
+    padding: 4% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    cursor: pointer;
+}
+.nav .search{
+    display: flex;
+    position: relative;
+}
+.nav .search input{
+    min-width: 15vw;
+    font-size: 1.2rem;
+    padding: 2%;
+    /* border: none; */
+}
+.nav .search input:focus{
+    outline: 0;
+}
+.searchList{
+    position: absolute;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 4px;
+}
+.searchList li{
+    color: black;
+    background-color: #e8edf0;
+    min-width: 20vw;
+    font-size: 1.2rem;
+    padding: 2.5%;
+    cursor: pointer;
+}
+.searchList li:hover{
+    background-color: #7fa0b6;
+}
+.burger{
+    background-color:#007ACC !important;
+    padding: 1% !important;
+    display: none !important;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.hambar{
+    position: relative;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5vh;
+    background-color: #4794c7;
+}
+.bar a{
+    font-size: 1.8rem;
+    min-width: max-content;
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+}
+.bar a:hover{
+    background-color: black;
+}
+@media (max-width:760px){
+    .nav h2{
+        display:none;
+    }
+    .nav .ullist{
+        display: none;
+    }
+    .burger{
+        display:block !important;
+    }
+}

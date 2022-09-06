@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "id": "f957ab4f-1472-4a32-948f-3b5fce77b67a",
+      "author": "kamal",
+      "title": "Dummy Title",
+      "content": "Content is the information contained within ommunication media. This includes internet, cinema, television, radio, audio CDs, books,magazines, physical art, and live event content. It’s directed at an end-user or audience in the sectors of publishing, art, and communication.",
+      "time": "Mon Sep 05 2022 13:00:34"
+    },
+    {
+      "id": "9382618b-9a47-41a8-a1c2-f7bf1f4e3845",
+      "author": "kamal",
+      "title": "Dragon",
+      "content": "A dragon is a reptile-like legendary creature that appears in the folklore of many cultures worldwide. Beliefs about dragons vary considerably through regions, but dragons in western cultures since the High Middle Ages have often been depicted as winged, horned, four-legged, and capable of breathing fire. Dragons in eastern cultures are usually depicted as wingless, four-legged, serpentine creatures with above-average intelligence. Commonalities between dragons' traits are often a hybridization of feline, avian, and reptilian features. Scholars believe huge extinct or migrating crocodiles bear the closest resemblance, especially when encountered in forested or swampy areas, and are most likely the template of modern Oriental dragon imagery.",
+      "time": "Mon Sep 05 2022 13:17:31"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

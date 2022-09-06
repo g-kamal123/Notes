@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /* flex: 1 1 auto; */
+    gap: 1rem;
+    background-image: linear-gradient(to bottom right,aliceblue,hsla(207, 31%, 64%, 0.658),hsla(208, 27%, 47%, 0.651));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home .homeImage{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(41, 145, 145); */
+    width: 100%;
+}
+.home .homeImage img{
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+}
+.home button{
+    border: none;
+    font-size: 1.7rem;
+    padding: 0.5em;
+    /* color: aliceblue; */
+    background-color: aliceblue;
+    text-shadow: 2px 2px 5px #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.home button:hover{
+    color: rgb(33, 33, 116);
+}
